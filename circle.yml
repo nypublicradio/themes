@@ -31,7 +31,7 @@ jobs:
           name: Test
           command: npm test
 
-  desploy:
+  deploy:
     docker:
       - image: circleci/node:8.7
 
