@@ -60,7 +60,7 @@ workflows:
   version: 2
   install-test-deploy:
     jobs:
-      - build:
+      - install:
           filters:
             tags:
               only: /.*/
@@ -69,7 +69,7 @@ workflows:
             tags:
               only: /.*/
           requires:
-            - build
+            - install
       - deploy:
           requires:
             - test
