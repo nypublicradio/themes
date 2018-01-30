@@ -1,0 +1,28 @@
+- message: Brand Name
+  name: brand
+- message: Logo URL
+  name: logo
+- message: H1 font family
+  name: 'h1.fontFamily'
+- message: H1 font color
+  name: 'h1.color'
+- message: Body font family
+  name: 'body.fontFamily'
+- message: Body font color
+  name: 'body.color'
+- message: Button font family
+  name: 'button.fontFamily'
+- message: Button font color
+  name: 'button.color'
+- message: Button background color
+  name: 'button.backgroundColor'
+- message: Hyperlink color
+  name: 'a.color'
+- message: Body background color of modules (gray or white)
+  name: 'body.backgroundColor'
+  type: list
+  choices:
+    - gray
+    - white
+- message: Accent color (quotation marks)
+  name: 'accent.color'
