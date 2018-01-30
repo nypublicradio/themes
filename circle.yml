@@ -43,7 +43,7 @@ jobs:
           name: Install aws cli
           command: sudo apt-get -y -qq install awscli
       - run:
-          name: Ship theme files
+          name: Theme files and index
           command: |
             if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
               export AWS_BUCKET=$DEMO_AWS_BUCKET
@@ -52,13 +52,11 @@ jobs:
               export AWS_BUCKET=$PROD_AWS_BUCKET
               export AWS_PREFIX=$PROD_AWS_PREFIX
             fi
-            aws s3 sync ./json/ s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
-
-      - run:
-          name: Generate Theme Index
-          command: |
             npm run generate
             aws s3 cp ./index.json s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
+
+            aws s3 sync ./json/ s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
+
 workflows:
   version: 2
   install-test-deploy:
