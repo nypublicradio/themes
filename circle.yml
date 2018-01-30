@@ -53,7 +53,7 @@ jobs:
               export AWS_PREFIX=$PROD_AWS_PREFIX
             fi
             npm run generate
-            aws s3 cp ./index.json s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
+            aws s3 cp ./index.json s3://"$AWS_BUCKET"/"$AWS_PREFIX"/ --cache-control "max-age=0, no-cache"
 
             aws s3 sync ./json/ s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
 
