@@ -1,0 +1,26 @@
+{
+  "name": "nypr-theme-config",
+  "version": "1.0.0",
+  "description": "Shareable brand configs for NYPR properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nypublicradio/themes.git"
+  },
+  "author": "Brian Whitton, NYPR Devs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypublicradio/themes/issues"
+  },
+  "homepage": "https://github.com/nypublicradio/themes#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "inquirer": "^5.0.1",
+    "jest": "^22.1.4",
+    "js-yaml": "^3.10.0",
+    "lodash": "^4.17.4"
+  }
+}
