@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/nypublicradio/themes#readme",
   "devDependencies": {
+    "args": "^3.0.8",
+    "deepmerge": "^2.0.1",
     "eslint": "^4.16.0",
     "inquirer": "^5.0.1",
     "jest": "^22.1.4",
