@@ -40,6 +40,9 @@ jobs:
       - restore_cache:
           key: node-deps-{{ checksum "package-lock.json" }}-{{ checksum "package.json" }}
       - run:
+          name: Install aws cli
+          command: sudo apt-get -y -qq install awscli
+      - run:
           name: Ship theme files
           command: |
             if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
