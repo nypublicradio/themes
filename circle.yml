@@ -43,11 +43,9 @@ jobs:
           name: Ship theme files
           command: |
             if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
-              env | sed -n 's/^DEMO_//p' > .env
               export AWS_BUCKET=$DEMO_AWS_BUCKET
               export AWS_PREFIX=$DEMO_AWS_PREFIX
             elif grep -q "v[0-9]\+\.[0-9]\+\.[0-9]\+" <<< "$CIRCLE_TAG"; then
-              env | sed -n 's/^PROD_//p' > .env
               export AWS_BUCKET=$PROD_AWS_BUCKET
               export AWS_PREFIX=$PROD_AWS_PREFIX
             fi
