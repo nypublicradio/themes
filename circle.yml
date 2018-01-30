@@ -58,7 +58,7 @@ jobs:
           name: Generate Theme Index
           command: |
             npm run generate
-            aws s3 sync ./index.json s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
+            aws s3 cp ./index.json s3://"$AWS_BUCKET"/"$AWS_PREFIX" --cache-control "max-age=0, no-cache"
 workflows:
   version: 2
   install-test-deploy:
