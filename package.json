@@ -4,7 +4,10 @@
   "description": "Shareable brand configs for NYPR properties",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "new": "node index.js",
+    "edit": "node index.js --edit",
+    "generate": "node ./scripts/generate.js"
   },
   "repository": {
     "type": "git",
