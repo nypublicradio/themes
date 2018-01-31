@@ -14,4 +14,4 @@ files.forEach(filename => {
   output.push({ label: json.brand, value: filename });
 });
 
-fs.writeFileSync('./index.json', JSON.stringify(output, null, 2));
+fs.writeFileSync('./index.json', JSON.stringify(output));
