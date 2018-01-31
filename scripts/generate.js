@@ -11,7 +11,7 @@ let output = [];
 
 files.forEach(filename => {
   let json = require(path.resolve(JSON_DIR, filename));
-  output.push({ label: json.brand, value: filename });
+  output.push({ label: json.brand, value: filename.replace('.json', '') });
 });
 
 fs.writeFileSync('./index.json', JSON.stringify(output));
