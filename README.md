@@ -50,11 +50,11 @@ You need a recent version of node (>= 6.x). If you've never used node before or 
 ```bash
 $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 ```
-1. Use `nvm` to install the latest version of node.
+2. Use `nvm` to install the latest version of node.
 ```bash
 $ nvm install lts/carbon
 ```
-1. Set this version to your system default
+3. Set this version to your system default
 ```bash
 $ nvm alias default lts/carbon
 ```
@@ -68,11 +68,11 @@ You can fire up an interactive prompt that you can follow to fill in the values 
 $ nvm current
 # should show a number higher than 6.x.x
 ```
-1. Change into the repo directory
+2. Change into the repo directory
 ```bash
 $ cd <themes repo folder>
 ```
-1. Run the generator and follow the prompts.
+3. Run the generator and follow the prompts.
 ```bash
 $ npm run new
 ```
@@ -83,11 +83,11 @@ This will create a new file in the `json` directory, which you must commit and p
 ```bash
 $ git add json/<filename>.json
 ```
-1. Commit the file with a descriptive message
+2. Commit the file with a descriptive message
 ```bash
 $ git commit -m "added here's the thing theme"
 ```
-1. Send the file to GitHub
+3. Send the file to GitHub
 ```bash
 $ git push origin master
 ```
