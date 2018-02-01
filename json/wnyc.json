@@ -1,24 +1,24 @@
 {
-  "brand": "The Brian Lehrer Show",
-  "logo": "",
+  "brand": "WNYC",
+  "logo": "https://www.wnyc.org/",
   "h1": {
-    "fontFamily": "",
-    "color": ""
+    "fontFamily": "Open Sans",
+    "color": "black"
   },
   "body": {
-    "fontFamily": "",
-    "color": "",
+    "fontFamily": "Open Sans",
+    "color": "black",
     "backgroundColor": "gray"
   },
   "button": {
-    "fontFamily": "",
-    "color": "",
+    "fontFamily": "Open Sans",
+    "color": "#de1e3d",
     "backgroundColor": ""
   },
   "a": {
     "color": ""
   },
   "accent": {
-    "color": ""
+    "color": "#de1e3d"
   }
 }
