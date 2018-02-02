@@ -14,4 +14,10 @@ files.forEach(filename => {
   output.push({ label: json.brand, value: filename.replace('.json', '') });
 });
 
+let defaultTheme = output.find(theme => theme.value === 'wnyc-studios');
+if (defaultTheme) {
+  output = output.filter(theme => theme.value !== 'wnyc-studios');
+  output.unshift(defaultTheme);
+}
+
 fs.writeFileSync('./index.json', JSON.stringify(output));
