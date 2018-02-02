@@ -22,7 +22,8 @@
   name: 'body.backgroundColor'
   type: list
   choices:
-    - gray
+    - name: gray
+      value: "#f1f1f1"
     - white
 - message: Accent color (quotation marks)
   name: 'accent.color'
