@@ -1,0 +1,24 @@
+{
+  "brand": "New Sounds",
+  "logo": "Image path url",
+  "h1": {
+    "fontFamily": "Roboto",
+    "color": "black"
+  },
+  "body": {
+    "fontFamily": "Roboto",
+    "color": "black",
+    "backgroundColor": "white"
+  },
+  "button": {
+    "fontFamily": "Open Sans",
+    "color": "#f25ced",
+    "backgroundColor": ""
+  },
+  "a": {
+    "color": ""
+  },
+  "accent": {
+    "color": "#f25ced"
+  }
+}
