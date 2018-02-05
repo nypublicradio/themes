@@ -1,6 +1,6 @@
 {
   "brand": "WNYC",
-  "logo": "https://www.wnyc.org/",
+  "logo": "url to image",
   "h1": {
     "fontFamily": "Open Sans",
     "color": "black"
@@ -8,17 +8,17 @@
   "body": {
     "fontFamily": "Open Sans",
     "color": "black",
-    "backgroundColor": "gray"
+    "backgroundColor": "#ffffff"
   },
   "button": {
     "fontFamily": "Open Sans",
-    "color": "#de1e3d",
-    "backgroundColor": ""
+    "color": "black",
+    "backgroundColor": "#de1e3d"
   },
   "a": {
-    "color": ""
+    "color": "black"
   },
   "accent": {
-    "color": "#de1e3d"
+    "color": "#d0021b"
   }
 }
