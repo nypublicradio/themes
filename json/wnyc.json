@@ -12,7 +12,7 @@
   },
   "button": {
     "fontFamily": "Open Sans",
-    "color": "black",
+    "color": "white",
     "backgroundColor": "#de1e3d"
   },
   "a": {
