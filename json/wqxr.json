@@ -12,8 +12,8 @@
   },
   "button": {
     "fontFamily": "Open Sans",
-    "color": "#0064b4",
-    "backgroundColor": ""
+    "color": "white",
+    "backgroundColor": "#00aeff"
   },
   "a": {
     "color": ""
