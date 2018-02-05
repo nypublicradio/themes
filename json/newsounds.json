@@ -12,13 +12,13 @@
   },
   "button": {
     "fontFamily": "Open Sans",
-    "color": "##f25ced",
+    "color": "#f25ced",
     "backgroundColor": ""
   },
   "a": {
     "color": ""
   },
   "accent": {
-    "color": "##f25ced"
+    "color": "#f25ced"
   }
 }
