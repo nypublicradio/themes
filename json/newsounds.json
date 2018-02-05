@@ -2,18 +2,18 @@
   "brand": "New Sounds",
   "logo": "Image path url",
   "h1": {
-    "fontFamily": "Roboto",
+    "fontFamily": "Open Sans",
     "color": "black"
   },
   "body": {
-    "fontFamily": "Roboto",
+    "fontFamily": "Open Sans",
     "color": "black",
     "backgroundColor": "white"
   },
   "button": {
     "fontFamily": "Open Sans",
-    "color": "#f25ced",
-    "backgroundColor": ""
+    "color": "white",
+    "backgroundColor": "#f25ced"
   },
   "a": {
     "color": ""
