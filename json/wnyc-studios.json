@@ -13,7 +13,8 @@
   "button": {
     "fontFamily": "Oswald",
     "color": "black",
-    "backgroundColor": "#dcf42c"
+    "backgroundColor": "#dcf42c",
+    "textTransform": "uppercase"
   },
   "a": {
     "color": "black"
