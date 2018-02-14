@@ -16,6 +16,13 @@
   name: 'button.color'
 - message: Button background color
   name: 'button.backgroundColor'
+- message: Button Text Transform
+  name: 'buton.textTransform'
+  type: list
+  choices:
+    - uppercase
+    - name: normal
+      value: none
 - message: Hyperlink color
   name: 'a.color'
 - message: Body background color of modules (gray or white)
