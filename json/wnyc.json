@@ -13,7 +13,8 @@
   "button": {
     "fontFamily": "Open Sans",
     "color": "white",
-    "backgroundColor": "#de1e3d"
+    "backgroundColor": "#de1e3d",
+    "textTransform": "none"
   },
   "a": {
     "color": "black"
