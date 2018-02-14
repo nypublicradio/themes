@@ -17,7 +17,7 @@
 - message: Button background color
   name: 'button.backgroundColor'
 - message: Button Text Transform
-  name: 'buton.textTransform'
+  name: 'button.textTransform'
   type: list
   choices:
     - uppercase
