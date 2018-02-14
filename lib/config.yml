@@ -23,8 +23,6 @@
     - uppercase
     - name: normal
       value: none
-- message: Hyperlink color
-  name: 'a.color'
 - message: Body background color of modules (gray or white)
   name: 'body.backgroundColor'
   type: list
@@ -32,5 +30,7 @@
     - name: gray
       value: "#f1f1f1"
     - white
+- message: Hyperlink color
+  name: 'a.color'
 - message: Accent color (quotation marks)
   name: 'accent.color'
