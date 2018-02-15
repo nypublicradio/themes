@@ -1,0 +1,25 @@
+{
+  "brand": "WNYC lite",
+  "logo": "url to image",
+  "h1": {
+    "fontFamily": "Open Sans",
+    "color": "black"
+  },
+  "body": {
+    "fontFamily": "Open Sans",
+    "color": "black",
+    "backgroundColor": "#f1f1f1"
+  },
+  "button": {
+    "fontFamily": "Open Sans",
+    "color": "white",
+    "backgroundColor": "#de1e3d",
+    "textTransform": "none"
+  },
+  "a": {
+    "color": "black"
+  },
+  "accent": {
+    "color": "#d0021b"
+  }
+}
