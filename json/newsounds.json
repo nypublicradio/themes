@@ -2,16 +2,16 @@
   "brand": "New Sounds",
   "logo": "Image path url",
   "h1": {
-    "fontFamily": "Open Sans",
+    "fontFamily": "Arial",
     "color": "black"
   },
   "body": {
-    "fontFamily": "Open Sans",
+    "fontFamily": "Arial",
     "color": "black",
     "backgroundColor": "white"
   },
   "button": {
-    "fontFamily": "Open Sans",
+    "fontFamily": "Arial",
     "color": "white",
     "backgroundColor": "#f25ced",
     "textTransform": "none"
