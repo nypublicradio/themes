@@ -8,7 +8,7 @@
   "body": {
     "fontFamily": "Open Sans",
     "color": "black",
-    "backgroundColor": "#f1f1f1"
+    "backgroundColor": "white"
   },
   "button": {
     "fontFamily": "Oswald",
@@ -20,6 +20,6 @@
     "color": "black"
   },
   "accent": {
-    "color": "#d0021b"
+    "color": "#4db7be"
   }
 }
