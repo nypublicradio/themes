@@ -10,6 +10,8 @@
   name: 'body.fontFamily'
 - message: Body font color
   name: 'body.color'
+- message: Body padding
+  name: 'body.padding'
 - message: Button font family
   name: 'button.fontFamily'
 - message: Button font color
