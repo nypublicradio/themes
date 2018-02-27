@@ -8,7 +8,8 @@
   "body": {
     "fontFamily": "Open Sans",
     "color": "black",
-    "backgroundColor": "#f1f1f1"
+    "backgroundColor": "#f1f1f1",
+    "padding": "30px 25px"
   },
   "button": {
     "fontFamily": "Open Sans",
