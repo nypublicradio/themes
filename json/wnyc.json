@@ -15,7 +15,8 @@
     "fontFamily": "Open Sans",
     "color": "white",
     "backgroundColor": "#de1e3d",
-    "textTransform": "none"
+    "textTransform": "none",
+    "padding": "6px 10px"
   },
   "a": {
     "color": "black"

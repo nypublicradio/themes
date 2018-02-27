@@ -15,7 +15,8 @@
     "fontFamily": "Arial",
     "color": "white",
     "backgroundColor": "#f25ced",
-    "textTransform": "none"
+    "textTransform": "none",
+    "padding": "6px 10px"
   },
   "a": {
     "color": ""

@@ -15,7 +15,8 @@
     "fontFamily": "Oswald",
     "color": "black",
     "backgroundColor": "#dcf42c",
-    "textTransform": "uppercase"
+    "textTransform": "uppercase",
+    "padding": "6px 10px"
   },
   "a": {
     "color": "black"
