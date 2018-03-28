@@ -9,7 +9,7 @@
     "fontFamily": "Open Sans",
     "color": "black",
     "backgroundColor": "#f1f1f1",
-    "padding": "0"
+    "padding": "30px 25px"
   },
   "button": {
     "fontFamily": "Oswald",
