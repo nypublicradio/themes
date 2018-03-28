@@ -1,0 +1,27 @@
+{
+  "brand": "WNYC Studios",
+  "logo": "url to image",
+  "h1": {
+    "fontFamily": "Oswald",
+    "color": "black"
+  },
+  "body": {
+    "fontFamily": "Open Sans",
+    "color": "black",
+    "backgroundColor": "f1f1f1",
+    "padding": "0"
+  },
+  "button": {
+    "fontFamily": "Oswald",
+    "color": "black",
+    "backgroundColor": "#dcf42c",
+    "textTransform": "uppercase",
+    "padding": "6px 10px"
+  },
+  "a": {
+    "color": "black"
+  },
+  "accent": {
+    "color": "#4db7be"
+  }
+}
