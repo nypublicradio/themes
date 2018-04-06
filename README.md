@@ -58,6 +58,11 @@ $ nvm install lts/carbon
 ```bash
 $ nvm alias default lts/carbon
 ```
+4.  Install dependencies
+```
+cd themes
+npm install
+```
 
 ### Generating a new Theme
 
