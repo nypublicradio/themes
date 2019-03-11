@@ -1,3 +1,9 @@
+# config.yml
+# this file specifies the "theme-able" attributes for a given theme
+# the `message` value will be presented to the cli user when editing or creating a new theme
+# the `name` value is the keypath on the resulting theme's JSON object for that CSS attribute
+# this follows the inquirer.js spec https://github.com/SBoudrias/Inquirer.js
+
 - message: Brand Name
   name: brand
 - message: Logo URL
