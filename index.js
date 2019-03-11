@@ -10,7 +10,6 @@ const ThemeBuilder = require('./lib/theme-builder');
 args.option('edit', 'Edit an existing theme file', false);
 const flags = args.parse(process.argv);
 
-// all this to throw if this fails
 const THEME_TEMPLATE = yaml.safeLoad(fs.readFileSync(path.resolve(__dirname, 'lib/config.yml')));
 
 let builder = new ThemeBuilder({template: THEME_TEMPLATE});
