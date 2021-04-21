@@ -1,0 +1,27 @@
+{
+    "brand": "WQXR",
+    "logo": "logo image path",
+    "h1": {
+      "fontFamily": "Open Sans",
+      "color": "black"
+    },
+    "body": {
+      "fontFamily": "Open Sans",
+      "color": "black",
+      "backgroundColor": "#f1f1f1",
+      "padding": "0"
+    },
+    "button": {
+      "fontFamily": "Open Sans",
+      "color": "white",
+      "backgroundColor": "#00aeff",
+      "textTransform": "none",
+      "padding": "6px 10px"
+    },
+    "a": {
+      "color": ""
+    },
+    "accent": {
+      "color": "#0064b4"
+    }
+  }
