@@ -1,0 +1,27 @@
+{
+  "brand": "TGS",
+  "logo": "logo image path",
+  "h1": {
+    "fontFamily": "Geomanist,Arial,sans-serif",
+    "color": "black"
+  },
+  "body": {
+    "fontFamily": "Geomanist,Arial,sans-serif",
+    "color": "black",
+    "backgroundColor": "white",
+    "padding": "0"
+  },
+  "button": {
+    "fontFamily": "Geomanist,Arial,sans-serif",
+    "color": "white",
+    "backgroundColor": "#6de7fb",
+    "textTransform": "none",
+    "padding": "6px 10px"
+  },
+  "a": {
+    "color": ""
+  },
+  "accent": {
+    "color": "#ff00ce"
+  }
+}
